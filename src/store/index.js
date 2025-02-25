@@ -1,6 +1,6 @@
 import { createStore } from 'redux';
 import gridReducer from './reducer';
 
-const store = createStore(gridReducer);
+const index = createStore(gridReducer);
 
-export default store;
+export default index;
